@@ -9,11 +9,17 @@ The module displays the top 100 best articles displayed by the number of comment
 
 Odnośniki:
 http://twoja-strona.pl/?do=top100&mode=rating 
+
 http://twoja-strona.pl/?do=top100&mode=comments 
+
 http://twoja-strona.pl/?do=top100&mode=views 
+
 Lub:
+
 http://twoja-strona.pl/top100/rating 
+
 http://twoja-strona.pl/top100/comments 
+
 http://twoja-strona.pl/top100/views 
 
 5. W głównym pliku .htaccess na serwerze znajdź linijkę: 
@@ -34,11 +40,17 @@ RewriteRule ^top100/([^/]*)(/?)+$ index.php?do=top100&mode=$1 [L]
 
 Reference:
 http://twoja-strona.pl/?do=top100&mode=rating 
+
 http://twoja-strona.pl/?do=top100&mode=comments 
+
 http://twoja-strona.pl/?do=top100&mode=views 
+
 or:
+
 http://twoja-strona.pl/top100/rating 
+
 http://twoja-strona.pl/top100/comments 
+
 http://twoja-strona.pl/top100/views
 
 5. In the main .htaccess file on the server, look for the line:
