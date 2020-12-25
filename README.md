@@ -39,19 +39,19 @@ RewriteRule ^top100/([^/]*)(/?)+$ index.php?do=top100&mode=$1 [L]
 4. In your template, in the selected place (eg in the main.tpl file) add a link to the subpage that displays recently edited articles.
 
 Reference:
-http://twoja-strona.pl/?do=top100&mode=rating 
+http://your-site.com/?do=top100&mode=rating 
 
-http://twoja-strona.pl/?do=top100&mode=comments 
+http://your-site.com/?do=top100&mode=comments 
 
-http://twoja-strona.pl/?do=top100&mode=views 
+http://your-site.com/?do=top100&mode=views 
 
 or:
 
-http://twoja-strona.pl/top100/rating 
+http://your-site.com/top100/rating 
 
-http://twoja-strona.pl/top100/comments 
+http://your-site.com/top100/comments 
 
-http://twoja-strona.pl/top100/views
+http://your-site.com/top100/views
 
 5. In the main .htaccess file on the server, look for the line:
 
